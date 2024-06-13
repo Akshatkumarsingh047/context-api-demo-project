@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 16rem;
+  height: 60px;
+  border: 5px solid black;
+  background: linear-gradient(#ffcb74 0 0) 0/0% no-repeat #ddd;
+  animation: l1 2s infinite linear;
+}
+@keyframes l1 {
+  100% {
+    background-size: 100%;
+  }
+}
+/* HTML: <div class="loader"></div> */
+/* HTML: <div class="loader"></div> */
